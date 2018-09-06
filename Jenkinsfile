@@ -26,6 +26,7 @@ spec:
           sh '''
             echo "This is build"
 	    sleep 3
+	    docker version
           '''
         }
       }
