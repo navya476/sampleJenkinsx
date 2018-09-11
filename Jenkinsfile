@@ -27,6 +27,7 @@ spec:
             echo "This is build"
 	    sleep 3
 	    docker version
+	    docker login -u admin -p admin123 35.231.59.10:8083
           '''
         }
       }
