@@ -12,7 +12,7 @@ metadata:
 spec:
   containers:
   - name: docker
-    image: docker:dind
+    image: maven
     tty: true
     securityContext:
       privileged: true
